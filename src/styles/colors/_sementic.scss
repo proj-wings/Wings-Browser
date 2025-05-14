@@ -1,4 +1,4 @@
-@use 'pallete' as *;
+@use './pallete' as *;
 
 :root {
   --Primary-Normal: #{$Blue-50};
@@ -37,5 +37,7 @@
 
   --Static-White: #{$Common-00};
   --Static-Black: #{$Common-100};
+
+  --Black-1: rgba(0,0,0,0.2);
 }
 
